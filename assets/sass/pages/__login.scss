@@ -1,0 +1,112 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/log-6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form_box {
+        width: 60rem;
+        height: 60rem;
+        margin-left: 7rem;      
+        background-image: url(../img/log-3.jpg);
+        background-size: 100% 100%;
+        object-fit: cover;
+        .form_head {            
+            text-align: center;
+            padding-top: 10rem;
+            h2{
+                font-size: 3rem;
+                color: $color-2;
+            }
+            p{
+                font-size: 1.6rem;
+                font-family: AbyssinicaSIL;
+                color: $sub_balck;
+            }
+        }
+        .input_box {
+            width: 35rem;
+            padding-top: 3rem;
+            margin: auto;
+            text-align: center;
+            .input_group {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 1rem;
+                background-color: #fff;
+                border-radius: .5rem;
+                input {
+                    flex: 1;
+                    padding: 1rem;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    background-color: rgba(255, 255, 255, 0.253);
+                    border-radius: .5rem;
+                    &::placeholder {
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                    }
+                }
+                i {
+                    padding: .8rem .5rem;
+                    font-size: 2rem; 
+                    color: $color-2;
+                }               
+            }
+            .forget {
+                float: right;
+                font-size: 1.4rem;                
+            }           
+            .btn_box {
+                margin: auto;
+                width: 100%;
+                height: 4rem;
+                margin-top: 6rem;
+                background-color: #95afc0;
+                border-radius: .5rem;               
+                .login {
+                    width: 80%;
+                    padding: 1rem 0rem;
+                    margin-top: -1rem;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    background-color: #547794;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    transition: .3s;
+                    border-radius: .7rem;
+                    &:hover {
+                        background-color: #618fad;
+                    }
+                }
+                .sing {
+                    width: 80%;
+                    padding: 1rem 0rem;
+                    margin-top: -1rem;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    background-color: #618fad;
+                    color: #fff;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition: .3s;
+                    border-radius: .7rem;
+                    &:hover {
+                        background-color: #547794;
+                    }
+                }
+
+            }
+           .sing_box {
+            margin-top: 2.5rem;
+           }
+        }
+    }
+}

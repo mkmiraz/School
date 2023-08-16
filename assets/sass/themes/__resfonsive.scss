@@ -1,0 +1,1258 @@
+@media  (max-width: 1440px){
+    // START TOP NAVIGATION HERE
+    .menu_bar {
+        height: 9rem;
+
+        .logo {
+            padding-bottom: .8rem;
+            width: 20%;
+            text-align: right;
+            img {
+                height: 5.5rem;
+            }
+        }
+        .nav_area {
+
+            li{
+                a{
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                }
+            }
+        }
+        .contact {
+            width: 22%;
+            .num_btn {
+                font-size: 1.4rem;
+            }
+            .log_btn {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .active_nav {
+        height: 6rem;
+    }
+    // START BENAR HERE
+    .benar{
+        height: 100vh;
+        .admission_img{
+            height: 30rem;
+        }
+        .benar_text{
+            .text_area{
+                text-align: center;
+                h2 {
+                    font-size: 4rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+            .slider_box{
+                width: 30rem;
+                right: -10%;
+                .items{
+                    height: 30rem;
+                    width: 30rem;
+                    img{
+                        width: 28rem;
+                        height: 30rem;
+                    }
+                }
+            }
+        }
+    }
+    // Result here
+    .result_box{
+        width: 80%;
+        .form_area{
+            flex-wrap: wrap;
+            form{
+                flex-wrap: wrap;
+                gap: 2rem;
+                input{
+                    width: 48%;
+                }
+            }
+        }
+    }
+    // START A SERVICES
+    #services{
+        .services_box{
+            .services_text{
+                .title{
+                    h2{
+                        font-size: 2rem;
+                    }
+                }
+                .items_box{
+                    .items{
+                        i{
+                            font-size: 2.5rem;
+                        }
+                        .text_item {
+                            h4{
+                                font-size: 1.6rem;
+                                padding-bottom: .5rem;
+                            }
+                            p{
+                                font-size: 1.3rem;
+                                line-height: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .img_box{
+                perspective: 800px;
+                video{
+                    width: 40rem;
+                    height: 30rem;
+                    transform: rotateY(-20deg);
+                }
+                h3{
+                    font-size: 2rem;
+                    margin-bottom: -3.5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+        // START A SERVICES CURD HERE
+        .services_curd{
+            
+            .curd_menu{
+                padding: 1rem;
+                .curd_menu_area{
+                    width: 60%;
+                    li {
+
+                        a{
+                            padding: 1.2rem 1.6rem; 
+                            font-size: 1.8rem;
+                            span {
+                                bottom: -1rem;
+                                width: 1rem;
+                                height: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .content{
+                padding: .5rem 1rem;
+                width: 85%;
+                height: 56rem;
+                
+                .curd_box{
+                    gap: 2rem;
+                    .curd_items{
+                        width: 30rem;
+                        .curd_title{
+                            padding: 1rem;
+                            h2{
+                                font-size: 1.6rem;
+                            }
+                        }
+                        .cudr_body{
+                            padding: .3rem 1rem;
+                            li {
+                                padding-top: .2rem;
+                                font-size: 1.3rem;
+                                line-height: 1.8rem;
+                            }
+                        }
+                        .curd_footer{
+                            padding: 1rem;
+                            .a_custom{
+                                font-size: 1.4rem;
+                                i{
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // NEWS START HERE
+    #news {
+        
+        .news_box{
+            padding: 5rem 0;
+            .title{
+                h2{
+                    font-size: 3rem;
+                }
+            }
+            .news_curd{
+                width: 80%;
+                .news_items{
+                    width: 35rem;
+                    .img_item{
+                        height: 20rem;
+                        .date{
+                            padding: .8rem;
+                            p{
+                                font-size: 1.3rem;
+                            }
+                        }
+                    }
+                    .card_title {
+                        h3{
+                            font-size: 1.8rem;
+                        }
+                        p{
+                            font-size: 1.5rem;
+                            line-height: 2.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        .nws_box_2{
+            .text_item{
+
+                span{
+                    font-size: 1rem;
+                }
+                h2{
+                    font-size: 4rem;
+                    span{
+                        font-size: 4rem;
+                    }
+                }
+                p{
+                    font-size: 1.4rem;
+                    line-height: 2rem;
+                }
+                button{
+                    padding: 1rem 2rem;
+                    font-size: 1.2rem;
+                }
+            }
+            .img_Box{
+                .img_item{
+                    width: 50rem;
+                    height: 45rem;
+                    video {
+                        width: 25rem;
+                        height: 18rem;
+                        top: 42%;
+                        right: 33.5%;
+                    }
+                }
+            }
+        }
+    }
+    // CONTACT START HERE
+    #contact{
+        margin-bottom: 5rem;
+        .contact_box{
+            padding: 3rem;            
+            .img_contact{                
+                .img_item{
+                    img{
+                        height: 42rem;
+                    }
+                }
+                .contact_text{
+                    width: 90%;
+                    gap: 1rem;                    
+                    .location{
+                        span{
+                            font-size: 1.4rem;
+                        }
+                        .icon {
+                            padding:1rem;
+                            a{
+                               font-size: 1.4rem; 
+                               margin-right: .3rem;
+                            }
+                        }
+                    }
+                    .info{
+                        a{
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+            .form_box{
+
+                .title{
+                    padding: 1rem 4rem;
+                    h3{
+                        font-size: 3rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+                form{
+                    .form_group{
+                        gap: 1rem;
+                        .form_select{
+                            padding: .6rem 1.2rem;
+                            font-size: 1.5rem; 
+                        }
+                    }
+                    input{
+                        padding: .8rem 1.2rem;
+                        font-size: 1.6rem;  
+                    }
+                    textarea {
+                        font-size: 1.6rem;
+                    }
+                    button{
+                        font-size: 1.4rem;
+                        padding: 1.2rem 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+// FOOTER START HERE
+#footer {
+    height: 50rem;
+    .footer_box {
+        .footer_title{
+            font-size: 1.8rem;
+        }
+        .items{
+            a{
+                font-size: 1.4rem;
+                i{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .hours {
+            p{
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+        }
+        .contact {
+            span {
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+            a{
+                font-size: 1.4rem;
+            }
+        } 
+    }
+    
+
+    .copy_right{
+        padding: 1.3rem;
+        p{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+}
+@media (max-width: 1040px){
+    // START NAVIGATION HERE
+    .menu_bar{
+        height: 7rem;
+        padding: 0 2rem;
+        padding-right: 2rem;
+        width: 100%;
+        position: fixed;
+        background-color: $header;
+        top: 0;
+        left: 0;
+        .logo{
+            flex: 1;
+            text-align: start;
+            
+        }
+        .bars {
+            display: flex;
+        }
+        .nav_area{
+            width: 30rem;
+            height: fit-content;
+            flex-direction: column;
+            position: absolute;
+            top: 7rem;
+            transform: translateX(30rem);
+            right: 0;
+            z-index: 9999;
+            background-color: $header;
+            padding: 1.5rem;
+            transition: .5s ease;
+            li{
+                width: 100%;
+                a{
+                    padding: 1rem 0rem;
+                    text-align: start;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+
+        .sub_nav{
+            &:hover{
+                .sub_nav_area{
+                    display: none;
+                }
+            }
+            .sub_nav_area{
+                width: 100%;
+                height: fit-content;
+                margin-left: 3rem;
+                position: static;
+            }
+        }
+        
+        .nav_area.active {
+            transform: translateX(0);
+        }
+        .contact{
+            text-align: center;
+            width: 85%;
+        }
+
+    }
+    // START A BENAR SECTION
+    .benar{
+
+        .benar_text{
+            width: 100%;
+            .text_area{
+                p{
+                    width: 70%;
+                }
+            }
+
+            .slider_box{
+                right: 0;
+            }
+        }
+    }
+
+    // START SERVICES HERE
+    #services{
+        .services_box{
+            flex-direction: column;
+            .services_text{
+                width: 90%;
+            }
+            .img_box{
+                text-align: center;
+                width: 90%;
+                margin-top: 8rem;
+                video {
+                    margin-top: 5rem;
+                    width: 50rem;
+                    height: 40rem;
+                    transform: rotateY(0deg);
+                    box-shadow: 0px 0px 10px rgba(221, 221, 221, 0.192);
+                }
+                h3{
+                    font-size: 2.5rem;
+                    margin-bottom: -9rem;
+                    transform: rotateY(0deg);
+                }
+            }
+        }
+        // START A SERVICES CURD HERE
+        .services_curd{
+            padding: 3rem 2rem;
+            .curd_menu{              
+                .curd_menu_area {
+                    width: 100%;
+                } 
+            }
+            .content {
+                padding: 2rem 0;
+                width: 100%;
+            }
+        }
+    }
+    // START A NEWS HERE
+    #news{
+        .news_box{
+            .news_curd{
+                width: 92%;
+                left: 0%;
+            }
+        }
+        .nws_box_2{
+            padding: 7rem;
+            .text_item{
+                width: 50%;
+                h2{
+                    margin: 1rem 0;
+                    font-size: 4rem;
+                }
+            }
+            .img_Box{
+                width: 50%;
+                .img_item{
+                    width: 42rem;
+                    height: 40rem;
+                    video {
+                        width: 21rem;
+                        height: 16rem;
+                        top: 40%;
+                    }
+                }
+            }
+        }
+    }
+    // Class Routine css here
+
+    .routine_box{
+        width: 90%;
+        .table_title{
+            .title_logo{
+                width: 14%;
+            }
+        }
+        .table_area{
+            overflow: scroll;
+            height: fit-content;
+            table{
+                width: 100rem;
+            }
+        }
+    }
+        // Result here
+        .result_box{
+            width: 90%;
+            .form_area{
+                flex-wrap: wrap;
+                background-size: 100% 96%;
+                background-position: 100% 159%;
+                padding: 7rem 2rem 10rem;
+                form{
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 2rem;
+                    input{
+                        width: 48%;
+                    }
+                }
+            }
+            .show_result{
+                .result_table{
+                    .table_heading{
+                        .text{
+                            h2{
+                                font-size: 2.5rem;
+                            }
+                            p{
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                    .result_table_area{
+                        overflow: scroll;
+                        table{
+                            width: 90rem;
+                        }
+                        .attendence {
+                            width: 90rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    // CONTACT HERE
+    #contact {        
+        .contact_box{
+            padding: 2rem;
+            .img_contact{
+                width: 50%;
+                .contact_text{
+                    width: 100%;
+                }
+            }            
+        }
+        .form_box{
+            .title {
+                padding: 2rem !important;
+            }
+            form{
+                padding: 2rem !important;
+            }
+        }
+    }
+    
+    .contact_heading{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        .heading_location{
+            width: fit-content;
+        }
+        .heading_info{
+            width: fit-content;
+        }
+    }
+}
+
+@media (max-width: 925px) {
+    // benar here
+    .benar{
+        .admission_img{
+            position: absolute;
+            left: 0;
+        }
+        .benar_text{
+            .text_area{
+                p{
+                   width: 80%;
+                   margin-right: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 770px){
+      // LOGIN PAGE RESPONSIVE HERE
+      .main{
+        .form_box{
+            margin-left: 0;
+        }
+    }
+    // BENAR START HERE
+
+    //  SERVICES_CURD HERE
+    .services_curd {
+        .curd_menu {
+            .curd_menu_area{
+                flex-wrap: wrap;
+                li {
+                    a{
+                        font-size: 1.6rem !important;
+                    }
+                }
+            }
+        }
+        .content{
+            .curd_box{
+                overflow-y: scroll;
+                flex-wrap: wrap;
+            }
+        }
+    }
+    // NEWS HERE
+    #news{
+        .news_box{
+            .title{
+                top: 2%;
+            }
+            .news_curd{
+            }
+        }
+    }
+   
+     // Class Routine css here
+
+     .routine_box{
+        width: 95%;
+        .table_title{
+            justify-content: space-between;
+            .title{
+                h3{
+                    font-size: 2.8rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+            }
+            .title_logo{
+                padding: 0;
+                height: fit-content;
+                img {
+                    height: 7rem;
+                }
+                .icon{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // NEWS BOX 2 HERE
+    .nws_box_2 {
+        padding: 4rem !important;
+        flex-direction: column;
+        .text_item{
+            width: 90% !important;
+            margin-bottom: 5rem;
+        }
+        .img_Box{
+            width: 90% !important;
+            justify-content: center !important;
+        }
+    }
+    // CONTACT HERE
+    #contact{
+        .contact_box {
+            flex-direction: column;
+            .img_contact{
+                width: 80%;
+                margin: auto;
+                margin-bottom: 5rem;
+            }
+            .form_box {
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
+    // FOOTER HERE
+    #footer{
+        .footer_box{
+            width: 90%;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+        // benar here
+        .benar{
+            height: 65vh;
+            .admission_img{
+               display: none;
+            }
+            .benar_text{
+
+                .text_area{
+                    h2{
+                        font-size: 3.2rem;
+                    }
+                    p{
+                       width: 85%;
+                       margin-right: 3rem;
+                    }
+                }
+                .slider_box{
+                    background: #D6ECCD;
+                    border-radius: 100px 100px 0 0;
+                    bottom: -10rem;
+                    left: 0;
+                    margin: auto;
+                    margin-bottom: 2rem;
+                    width: 25rem;
+                    height: 25rem;
+                    animation: earLift 3s linear infinite alternate;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        width: 6rem;
+                        height: 6rem;
+                        border-radius: 50%;
+                        background: #D6ECCD;
+                        top: 2.5rem;
+                        right: -1.7rem;
+                        animation: earLift 3s linear infinite alternate;
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 6rem;
+                        height: 6rem;
+                        border-radius: 50%;
+                        background: #D6ECCD;
+                        top: 2.5rem;
+                        left: -2rem;
+                        animation: earLift 3s linear infinite alternate;
+                    }
+                    .items {
+                        height: 20rem;
+                        width: 25rem;
+                        display: flex;
+                        align-items: flex-end;
+                        // border: 1px solid red;
+                        img {
+                            width: 70%;
+                            margin: auto;
+                            height: 20rem !important;
+                        }
+                    }
+                }
+            }
+              
+  @keyframes faceLift {
+    0% {
+      transform: translateX(-60%);
+    }
+    100% {
+      transform: translateX(-30%);
+    }
+  }
+  @keyframes earLift {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+        }
+
+        
+    // SERVICE
+    #services{
+        .services_box {
+            .services_text{
+                .items_box{
+                    gap: 1rem;
+                    .items{
+                        margin-top: 1rem;
+                        width: 100%;
+                    }
+                }
+            }
+            padding: 0;
+            .img_box {
+                width: 90%;
+                video{
+                    width: 100%;
+                    height: 30rem;
+                }
+                h3{
+                    font-size: 2rem;
+                    margin-bottom: -4rem;
+                }
+            }
+        }
+        .services_curd {
+                 padding: 1rem;
+                 padding-bottom: 5rem;
+            .curd_menu{
+                padding: 0;
+                .curd_menu_area{
+                    flex-direction: column;
+                    gap: .5rem;
+                    li{
+                        a{
+                            padding: .7rem 1rem; 
+                            font-size: 1.2rem; 
+                            margin-bottom: .5rem;
+                           span{
+                            display: none !important;
+                           }
+                        }
+                    }
+                }
+            }
+            .content {
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+
+    #services{
+        .services_curd{
+            .curd_menu{
+                .curd_menu_area{
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    // page benar here
+    .page_benar{
+        .benar_heding{
+            h2{
+                font-size: 2.7rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+     // Result here
+     .result_box{
+                width: 90%;
+                .form_area{
+                    flex-wrap: wrap;
+                    background-size: 100% 96%;
+                    background-position: 100% 159%;
+                    padding: 7rem 2rem 10rem;
+                    form{
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        gap: 2rem;
+                        input{
+                            width: 100%;
+                            display: block;
+                        }
+                    }
+                }
+                .show_result{
+                    padding: 0;
+                    .result_table{
+                        .table_heading{
+                            justify-content: space-around !important;
+                            img{
+                                height: 5.5rem;
+                                margin: 0;
+                            }
+                            .text{
+                                h2{
+                                    font-size: 2rem;
+                                }
+                                p{
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+     }
+
+     .contact_heading{
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        .heading_location{
+            width: 100%;
+        }
+        .heading_info{
+            width: 100%;
+            padding-left: 1rem;
+        }
+    }
+
+}
+
+@media (max-width: 430px){
+
+    // benar here
+    .benar{
+                .admission_img{
+                  display: none;;
+                }
+                .benar_text{
+                    .text_area{
+                        h2{
+                            font-size: 2.2rem;
+                        }
+                        p{
+                           width: 90%;
+                        font-size: 1.4rem;
+                        }
+                    }
+                    .slider_box{
+                        .items {
+                            height: 25rem;
+                            img {
+                                height: 24rem;
+                            }
+                        }
+                    }
+                }
+     }
+            
+    // LOGIN PAGE RESPONSIVE HERE
+    .main{
+        .form_box{
+            width: 95%;
+            margin-left: 0;
+        }
+    }
+    // START NAVIGATION HERE
+    .menu_bar{
+        padding: 0 1rem;
+        height: 6rem;
+        .logo{
+            img{
+                height: 5rem;
+            }
+        }
+        .contact{
+            .num_btn {
+                font-size: 1.4rem;
+                i{
+                    font-size: 1.4rem;
+                }
+            }
+            .log_btn{
+                margin-left: .5rem;
+            }
+        }
+        .nav_area{
+            top: 6rem;
+            transform: translateX(-50rem);
+        }
+        .bars{
+            &::before{
+                width: 3rem;
+                height: .2rem;
+            }
+            &::after{
+                width: 3rem;
+                height: .2rem;
+            }
+        }
+    }
+    // START A BENAR HERE
+
+    // SERVICE
+    #services{
+        .services_box {
+            .services_text{
+                .items_box{
+                    gap: 1rem;
+                    .items{
+                        width: 100%;
+                    }
+                }
+            }
+            padding: 0;
+            .img_box {
+                // border: 1px solid red;
+                video{
+                    width: 100%;
+                    height: 30rem;
+                }
+                h3{
+                    font-size: 2rem;
+                    margin-bottom: -8rem;
+                }
+            }
+        }
+        .services_curd {
+                 padding: 1rem;
+                 padding-bottom: 5rem;
+            // .curd_menu{
+            //     padding: 0;
+            //     .curd_menu_area{
+            //         // flex-direction: column;
+            //         gap: .5rem;
+            //         li{
+            //             a{
+            //                 padding: .7rem 1rem; 
+            //                 font-size: 1.2rem; 
+            //                 margin-bottom: .5rem;
+            //                span{
+            //                 display: none !important;
+            //                }
+            //             }
+            //         }
+            //     }
+            // }
+            .content {
+                padding-top: 1rem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+
+    // NEWS HERE
+    #news{
+        .news_box{
+            .news_curd{
+                gap: 2rem !important;
+            }
+        }
+        // NEWS_BOS_2 HERE
+        .nws_box_2{
+            padding: 0 !important;
+            .text_item{
+                width: 90% !important;
+                h2{
+                    width: 100%;
+                    font-size: 3rem;
+                    margin: 0;
+                }
+                p{
+                    width: 100%;
+                }
+            }
+            .img_Box{
+                .img_item{
+                    width: 100%;
+                    height: 40rem;
+                    video{
+                        width: 20rem;
+                        height: 15rem;
+                        top: 38%;
+                        right: 32.5%;
+                    }
+                }
+            }
+        }
+    }
+  // Class Routine css here
+
+     .routine_box{
+                .table_title{
+                    .title{
+                        h3{
+                            font-size: 2.2rem;
+                        }
+                        p{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    .title_logo{
+                        img {
+                            height: 6.5rem;
+                        }
+                    
+                    }
+                }
+     }
+    // CONTACT HERE
+    #contact {        
+        margin: 0;
+        .contact_box{
+            padding: 0;
+            .img_contact{
+                padding: 0 1rem;
+                width: 100%;
+                .contact_text{
+                    .location{
+                        span{
+                            font-size: 1.2rem;
+                            i{
+                                font-size: 1.6rem;
+                            }
+                        }                       
+                    }
+                    .info{
+                        a{
+                            font-size: 1.2rem; 
+                            i{
+                                font-size: 1.6rem;
+                            } 
+                        }
+                    }
+                }
+            }
+            .form_box {
+                width: 100%;
+            }
+        }
+        
+    }
+    //  FOOTER HERE
+    #footer {
+        height: 65rem;
+        .footer_box{
+            justify-content: space-between;
+            .items{
+                width:13rem;
+            }
+            .hours{
+                width: 13rem;
+            }
+        }
+    }
+}
+@media (max-width: 375px){
+      // LOGIN PAGE RESPONSIVE HERE
+      .main{
+        .form_box{
+            width: 100%;
+            height: 100vh;
+        }
+    }
+    // NAVIGATION HERE
+    .menu_bar{
+        .nav_area{
+            width: 20rem;
+        }
+    }
+    // BENAR HERE 
+
+
+    // NEWS IMG_BOX HERE
+    .img_Box{
+
+        .img_item{
+            height: 35rem !important;
+            video{
+                width: 18rem !important;
+                height: 13rem !important;
+                top: 39% !important;
+                right: 31.5% !important;
+             }
+        }
+    }
+
+    
+        // result here
+        .result_box{
+            .show_result{
+                .btn_box{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 1rem;
+                    justify-content: center;
+                }
+            }
+        }
+}
+@media (max-width: 330px){
+      // LOGIN PAGE RESPONSIVE HERE
+      .main{
+        .form_box{
+            .input_box {
+                width: 90%;
+            }
+        }
+    }
+    // BENAR HERE
+    #services{
+        .services_box {
+            .img_box {
+                video{
+                    height: 25rem;
+                }
+                h3{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+    // NEWS VIDEO HERE
+    #news {
+        .nws_box_2 {
+            .img_Box{
+                .img_item{
+                    height: 30rem !important;
+                    video{
+                        width: 15rem !important;
+                        height: 12rem !important;
+                        top: 37% !important;
+                        right: 32.5% !important;
+                    }
+                }
+            }
+        }
+    }
+
+        // page benar here
+        .page_benar{
+            .benar_heding{
+                left: 7%;
+                h2{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+}

@@ -1,0 +1,126 @@
+.routine_box{
+    width: 70%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    background-color: #1e8fffc5;
+    overflow: hidden;
+    .table_title{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title_logo{
+            padding: 1rem 1rem;
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 8rem;
+                display: inline-block;
+                align-self: flex-start;
+            }
+            .icon{
+                position: relative;
+                width: 108px;
+                display: flex;
+                justify-content: space-between;
+                &::after {
+                    content: '';
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-color: #FFF;
+                    background-image:  radial-gradient(circle 14px, #0d161b 100%, transparent 0);
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                    animation: eyeMove 10s infinite , blink 10s infinite;
+                }
+                &::before {
+                    content: '';
+                    display: inline-block;
+                    width: 48px;
+                    height: 48px;
+                    background-color: #FFF;
+                    background-image:  radial-gradient(circle 14px, #0d161b 100%, transparent 0);
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                    animation: eyeMove 10s infinite , blink 10s infinite;
+                }
+            }
+        }
+        .title{
+            flex: 1;
+            text-align: center;
+            padding: 1rem 2rem;
+
+            h3{
+                font-size: 4rem;
+                font-weight: 900;
+                color: #fff;
+                font-family:TiroBangla;
+            }
+            p{
+                font-size: 1.8rem;
+                color: #fff;
+                line-height: 2.5rem;
+            }
+        }
+    }
+    .table_area{
+        padding: 1rem 0;
+        table{
+            width: 100%;
+            border: 1px solid #ddd;
+            border-collapse: collapse;
+            thead{
+                text-align: left;
+                tr{
+                    th{
+                        padding: 1.5rem 1rem;
+                        font-size: 1.8rem;
+                        background-color: rgba(227, 239, 250, 0.3);
+                        font-family: AbyssinicaSIL;
+                        &:nth-child(1) {
+                            color: red;
+                        }
+                    }
+                }
+            }
+            tbody{
+                tr{    
+                    &:nth-child(odd){
+                        background: #eeecec;
+                    }
+                    &:nth-child(even){
+                        background: rgb(253, 247, 247);
+                    }            
+                    td{
+                        padding: 1rem;
+                        border: 1px solid rgb(252, 242, 242);
+                        font-size: 1.6rem;
+                        font-family: AbyssinicaSIL;
+                        &:nth-child(1) {
+                            color: $color_2;
+                            font-size: 1.8rem;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  @keyframes eyeMove {
+    0%  , 10% {     background-position: 0px 0px}
+    13%  , 40% {     background-position: -15px 0px}
+    43%  , 70% {     background-position: 0px 0px}
+    73%  , 90% {     background-position: 0px 15px}
+    93%  , 100% {     background-position: 0px 0px}
+  }
+  @keyframes blink {
+    0%  , 10% , 12% , 20%, 22%, 40%, 42% , 60%, 62%,  70%, 72% , 90%, 92%, 98% , 100%
+    { height: 48px}
+    11% , 21% ,41% , 61% , 71% , 91% , 99%
+    { height: 18px}
+  }

@@ -1,0 +1,16 @@
+.a_custom {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 100;
+    font-family: AbyssinicaSIL;
+    text-decoration: underline;
+
+    i {
+        transition: .5s;
+    }
+
+    &:hover i {
+        padding-left: .7rem;
+        
+    }
+}

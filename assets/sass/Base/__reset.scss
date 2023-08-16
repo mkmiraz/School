@@ -1,0 +1,29 @@
+
+*{
+    margin: 0px;
+    padding: 0px; 
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: AbyssinicaSIL;
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    position: relative;
+    background-color: #fab28607;
+}
+
+li{
+    list-style: none;
+}
+ a{
+     text-decoration: none;
+ }
+ h1,h2,h3,h4,h5,h6{
+    font-family: Courgette;
+    font-weight: 100 !important;
+ }

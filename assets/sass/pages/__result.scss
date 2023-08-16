@@ -1,0 +1,212 @@
+.result_box{
+    width: 70%;
+    margin:5rem auto;
+    .form_area{
+        padding: 15rem 2rem;
+        background-image:  url(../img/result_2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 84%;
+        background-position: 100% 134%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1.5rem;
+        z-index: 6;
+        form {
+            width: fit-content;
+            display: flex;
+            flex-direction: row;
+            gap: 1.5rem;
+            z-index: 9;
+            input {
+                padding: 1.5rem 1.8rem;
+                font-size: 1.8rem;
+                background-color: rgba(196, 196, 196, 0.431);
+                width: 27.5rem;
+                border-radius: .5rem;
+            } 
+        }
+        .result_btn {
+            font-size: 1.6rem;
+            font-weight: 100;
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            background-color: $color-1;
+            color: #fff;
+            border-radius: .5rem;
+            transition: .4s;
+            i {
+                transition: .5s;
+            }
+            &:hover {
+                background-color: $color-2;
+                
+            }
+            &:hover i {
+                padding-left: .7rem;
+                
+            }
+        }
+    }
+
+    .show_result{
+        margin-top: 2rem;
+        padding: 5rem 2rem;
+        display: none;
+        .result_table{
+            outline-offset: -1.2rem;
+            padding: 1.5rem;
+            background-color: #fff;
+            box-shadow: 0px 0px 3px rgba(197, 196, 196, 0.596);
+            .table_heading{
+                width: 100%;
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: $header;
+                img{
+                    height: 7rem;
+                    margin-left: 3rem;
+                }
+                .text{
+                    text-align: center;
+                    margin: auto;
+                    h2{
+                        font-size: 3.5rem;
+                        margin: .6rem 0;
+                        font-weight: bolder;
+                        color: rgb(248, 248, 248);
+                    }
+                    p{
+                        font-size: 1.7rem;
+                        color: rgb(236, 236, 236);
+                    }
+                }
+            }
+            .result_table_area{
+                table{
+                    width: 100%;
+                    border: 1px solid #ddd;
+                    border-collapse: collapse;
+                    thead{
+                        text-align: left;
+                        tr{
+                            th{
+                                padding: 1.5rem 1rem;
+                                font-size: 1.8rem;
+                                background-color: rgba(227, 239, 250, 0.3);
+                                font-family: AbyssinicaSIL;
+                                &:nth-child(1) {
+                                    color: red;
+                                }
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{    
+                            &:nth-child(odd){
+                                background: #eeecec;
+                            }
+                            &:nth-child(even){
+                                background: rgb(253, 247, 247);
+                            }            
+                            td{
+                                padding: 1rem;
+                                border: 1px solid rgb(252, 242, 242);
+                                font-size: 1.6rem;
+                                font-family: AbyssinicaSIL;
+                                &:nth-child(1) {
+                                    color: $color_2;
+                                    font-size: 1.8rem;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+                .attendence{
+                    border-bottom: 1px solid #ddd;
+                    padding: 1rem 2rem;
+                    margin-bottom: 2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    h5{
+                        font-size: 2rem;
+                        color: rgb(61, 61, 61);
+                        span{
+                            font-size: 1.7rem;
+                        }
+                    }
+                    .signature{
+                        height: 8rem;
+                        display: flex;
+                        align-items: flex-end;
+                        padding: 1rem;
+                        p{
+                            font-size: 1.4rem;
+                            color: rgb(54, 52, 52);
+                        }
+                    }
+                }
+            }
+            .btn_box{
+                text-align: center;
+                padding: 1rem;
+                button {
+                    padding: 1rem 1.5rem;
+                    font-size: 1.6rem;
+                    margin-right: 3rem;
+                    background-color: #73AC00;
+                    color: #fff;
+                    border-radius: .4rem;
+                    i{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media print {
+    #top_head {
+        display: none;
+    }
+
+    .result_box{
+        .form_area{
+            display: none;
+        }
+    }
+    #footer{
+        display: none;
+    }
+    .btn_box{
+        display: none;
+    }
+    .show_result{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .result_table_area  {
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+	    page-break-inside: avoid;
+        .table_heading{
+            .text {
+                width: 100%;
+            }
+        }
+        table{
+            width: fit-content;
+            height: fit-content;
+        }
+    }
+}
